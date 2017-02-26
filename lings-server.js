@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 
 const wss = new WebSocket.Server({
-  port: 8080
+  port: 31337
 });
 
 console.log('Running!');
